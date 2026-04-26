@@ -34,9 +34,9 @@ Crie um arquivo `.env` na raiz do projeto:
 ```
 PORT=3000
 DB_HOST=localhost
-DB_USER=postgres
-DB_PASS=123456
-DB_NAME=taskdb
+DB_USER=
+DB_PASS=
+DB_NAME=
 DB_PORT=5432
 ```
 
