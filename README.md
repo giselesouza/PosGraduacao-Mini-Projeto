@@ -165,7 +165,7 @@ npm test
 
 ## 📸 Evidência dos testes
 
-![Resultado dos testes](./docs/TestResult.png)
+![Resultado dos testes](./docs/test-result.png)
 
 
 ---
