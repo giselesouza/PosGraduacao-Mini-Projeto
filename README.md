@@ -32,8 +32,8 @@ npm install
 Crie um arquivo `.env` na raiz do projeto:
 
 ```
-PORT=3000
-DB_HOST=localhost
+PORT=
+DB_HOST=
 DB_USER=
 DB_PASS=
 DB_NAME=
@@ -52,14 +52,6 @@ A API estará disponível em:
 
 ```
 http://localhost:3000
-```
-
----
-
-## 🧪 Rodar testes
-
-```bash
-npm test
 ```
 
 ---
@@ -167,6 +159,15 @@ Retorna tarefas com prazo vencido.
 
 Testes automatizados utilizando Jest para validação de regras de negócio e endpoints.
 
+```bash
+npm test
+```
+
+## 📸 Evidência dos testes
+
+![Resultado dos testes](./docs/TestResult.png)
+
+
 ---
 
 # 📁 Estrutura do projeto
@@ -180,6 +181,7 @@ Testes automatizados utilizando Jest para validação de regras de negócio e en
   /middlewares
   /config
 /tests
+/docs
 ```
 
 ---
